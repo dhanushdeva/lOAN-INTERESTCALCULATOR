@@ -24,7 +24,6 @@ const LoanCalculator = () => {
         dispatch(setLoanAmount(maxNewLoanAmount));
         dispatch(setLoanEligibility('Eligible'));
 
-        // Calculate repayment period (example: 5 years with fixed monthly payments)
         const yearsToRepay = 5;
         const monthlyPaymentAmount = maxNewLoanAmount / (yearsToRepay * 12);
         setRepaymentPeriod(`${yearsToRepay} years`);
@@ -36,7 +35,6 @@ const LoanCalculator = () => {
         dispatch(setLoanAmount(maxLoanAmount));
         dispatch(setLoanEligibility('Eligible'));
 
-        // Calculate repayment period (example: 5 years with fixed monthly payments)
         const yearsToRepay = 5;
         const monthlyPaymentAmount = maxLoanAmount / (yearsToRepay * 12);
         setRepaymentPeriod(`${yearsToRepay} years`);
