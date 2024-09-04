@@ -1,29 +1,4 @@
-// import { createSlice } from '@reduxjs/toolkit';
 
-// const initialState = {
-//   userDetails: {},
-//   loanEligibility: null,
-//   interestAmount: null,
-// };
-
-// const loanSlice = createSlice({
-//   name: 'loan',
-//   initialState,
-//   reducers: {
-//     setUserDetails: (state, action) => {
-//       state.userDetails = action.payload;
-//     },
-//     setLoanEligibility: (state, action) => {
-//       state.loanEligibility = action.payload;
-//     },
-//     setInterestAmount: (state, action) => {
-//       state.interestAmount = action.payload;
-//     },
-//   },
-// });
-
-// export const { setUserDetails, setLoanEligibility, setInterestAmount } = loanSlice.actions;
-// export default loanSlice.reducer;
 import { createSlice } from '@reduxjs/toolkit';
 
 const loanSlice = createSlice({
